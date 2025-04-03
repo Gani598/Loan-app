@@ -10,5 +10,5 @@ if st.button('PREDICT'):
     prediction=clf.predict([[g,m,ai,la]])
     if prediction=='y':
         st.text('Loan is Approved')
-        else:
-            st.text('Loan is Rejected')
+    else:
+        st.text('Loan is Rejected')
